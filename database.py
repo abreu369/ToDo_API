@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
-SQLALCHEMY_DATABASE_URL = "mysql+pymysql://zua:@127.0.0.1:3306/todoAPP"
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:@127.0.0.1:3306/todoAPP"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL
